@@ -100,4 +100,3 @@ medallas = ["primero", "segundo", "tercero"]
 for j, likes_top in enumerate(top3_likes):
     i = likes.index(likes_top)   # ← posición en la lista ORIGINAL
     print(f"{medallas[j]} {likes_top} likes — \"{posts[i]}\"")
-
